@@ -5,6 +5,6 @@ The 3D Sensor provided with the TurtleBot does not start with the minimal bringu
 
 .. Note:: Some 3D Sensors may not work with USB 3.0 port. Please make sure to use USB 2.0 for those devices
 
-.. code::bash
+.. code:: bash
 
 	roslaunch turtlebot_bringup 3dsensor.launch
