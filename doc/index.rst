@@ -14,6 +14,7 @@ TurtleBot 2 is the world’s most popular low cost, open source robot for educat
     PhysicalSetup.rst
     NetworkSetup.rst
     TurtlebotSoftware.rst
+    SettingColorVideo.rst
     RunTeleop.rst
     TurtleBotDashboard.rst
     DockingStation.rst

@@ -1,5 +1,5 @@
 Frequently Asked Questions
-============================  
+============================   
 
 Teleop doesn't work, dashboard has errors, and there is no chime on bringup
 -----------------------------------------------------------------------------
