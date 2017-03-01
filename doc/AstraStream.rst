@@ -9,23 +9,23 @@ running through these instructions
 
 .. code:: bash
 
- $ bash rm -rf turtlebot_ws
+ $ rm -rf turtlebot_ws
 
 Then run these commands!
 
 .. code:: bash
 
-  $ bash mkdir -p turtlebot_ws/src
-  $ bash cd turtlebot_ws/src
-  $ bash catkin_init_ws
-  $ bash git clone https://github.com/clearpathrobotics/ros_astra_launch.git --branch upstream
-  $ bash git clone https://github.com/clearpathrobotics/ros_astra_launch.git --branch upstream
-  $ bash cd ..
-  $ bash rosdep install --from-paths src --ignore-src --rosdistro=indigo -y
-  $ bash catkin_make
-  $ bash source devel/setup.bash
-  $ bash rosrun astra_camera create_udev_rules
-  $ bash roslaunch astra_launch astra_pro.launch
+  $ mkdir -p turtlebot_ws/src
+  $ cd turtlebot_ws/src
+  $ catkin_init_ws
+  $ git clone https://github.com/clearpathrobotics/ros_astra_launch.git --branch upstream
+  $ git clone https://github.com/clearpathrobotics/ros_astra_camera.git --branch upstream
+  $ cd ..
+  $ rosdep install --from-paths src --ignore-src --rosdistro=indigo -y
+  $ catkin_make
+  $ source devel/setup.bash
+  $ rosrun astra_camera create_udev_rules
+  $ roslaunch astra_launch astra_pro.launch
 
 That should do it! You can not open up Rviz and see color videos.
 Make sure to always source this workspace when opening a new terminal.
