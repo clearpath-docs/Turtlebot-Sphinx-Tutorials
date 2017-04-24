@@ -17,7 +17,7 @@ Then run these commands!
 
   $ mkdir -p turtlebot_ws/src
   $ cd turtlebot_ws/src
-  $ catkin_init_ws
+  $ catkin_init_workspace
   $ git clone https://github.com/clearpathrobotics/ros_astra_launch.git --branch upstream
   $ git clone https://github.com/clearpathrobotics/ros_astra_camera.git --branch upstream
   $ cd ..
