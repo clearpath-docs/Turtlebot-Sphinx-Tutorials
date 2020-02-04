@@ -21,7 +21,7 @@ Then run these commands!
   $ git clone https://github.com/clearpathrobotics/ros_astra_launch.git --branch upstream
   $ git clone https://github.com/clearpathrobotics/ros_astra_camera.git --branch upstream
   $ cd ..
-  $ rosdep install --from-paths src --ignore-src --rosdistro=indigo -y
+  $ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
   $ catkin_make
   $ source devel/setup.bash
   $ rosrun astra_camera create_udev_rules
