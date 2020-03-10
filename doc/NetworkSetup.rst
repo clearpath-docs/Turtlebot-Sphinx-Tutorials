@@ -22,4 +22,4 @@ For ROS to operate you need to have an instance of roscore running on the master
 
 Now that your TurtleBot netbook is set up, the instructions to setup another computer running ROS as a remote workstation can be found here (you can skip step 3). These commands will add the export lines to your bashrc file so they will run on every new terminal instance. However, if the IP address of either the TurtleBot netbook or your workstation happens to change, you can edit these files by typing ``gedit ~/.bashrc`` and inputting your new IP address.
 
-Install the **libuvc_camera** package by running ``sudo apt-get install ros-kinetic-libuvc_camera``.
+Install the **libuvc_camera** package by running ``sudo apt-get install ros-melodic-libuvc_camera``.
